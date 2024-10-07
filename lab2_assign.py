@@ -30,6 +30,9 @@ print(tom_marvolo_riddle.replace("Tom", "Vol"))
 print(tom_marvolo_riddle.replace("Tom Ri", "Voldem "))
 print(tom_marvolo_riddle.replace("Tom Riddle", "Lord Voldemort"))
 
+potassium = "Bananas are great source of Potassium"
+print(potassium.count("a"))
+
 
 
 
