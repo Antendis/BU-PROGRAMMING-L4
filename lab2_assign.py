@@ -31,7 +31,9 @@ print(tom_marvolo_riddle.replace("Tom Ri", "Voldem "))
 print(tom_marvolo_riddle.replace("Tom Riddle", "Lord Voldemort"))
 
 potassium = "Bananas are great source of Potassium"
-print(potassium.count("a"))
+print(potassium.count("a")) # counts all chars of a string?
+
+
 
 
 
