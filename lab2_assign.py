@@ -20,8 +20,11 @@ print(tom_marvolo_riddle[-6:].lower())
 
 too_many_spaces = "            space      "
 print(too_many_spaces)
-no_spaces = too_many_spaces.strip()
+no_spaces = too_many_spaces.strip() # removes outside spaces
 print(no_spaces)
+
+python_java = "Python java C++"
+print(python_java.split()) # splits string into list where each word is an item
 
 print(tom_marvolo_riddle.replace("Tom", "Vol"))
 print(tom_marvolo_riddle.replace("Tom Ri", "Voldem "))
