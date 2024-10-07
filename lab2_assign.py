@@ -18,9 +18,16 @@ print(tom_marvolo_riddle[-6:].lower())
 # tom_marvolo_riddle[0] = "I"
 # test above didnt work because strings are immutable?
 
+too_many_spaces = "            space      "
+print(too_many_spaces)
+no_spaces = too_many_spaces.strip()
+print(no_spaces)
+
 print(tom_marvolo_riddle.replace("Tom", "Vol"))
 print(tom_marvolo_riddle.replace("Tom Ri", "Voldem "))
 print(tom_marvolo_riddle.replace("Tom Riddle", "Lord Voldemort"))
+
+
 
 
 
