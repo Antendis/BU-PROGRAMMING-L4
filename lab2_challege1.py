@@ -5,6 +5,6 @@ i = 0
 
 while i < num:
   i += 1
-  spacelen = num - 1
+  spacelen = num - i
   given = i
   print(" " * spacelen, str(given) * i)
