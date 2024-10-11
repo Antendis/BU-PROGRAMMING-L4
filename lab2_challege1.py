@@ -1,5 +1,5 @@
 num = input("Give me a number: ")
-num = init(num)
+num = int(num)
 
 i = 0
 
