@@ -16,8 +16,10 @@ def is_prime(num):
 
     # Function implementation here ...
 
-    output = True
+    if num == 1:
+        return False
 
+    output = True
     for check in range(2, num+1):
 
         if num % check == 0 and num != check: # if its divisible by any number that isnt itself it is False
